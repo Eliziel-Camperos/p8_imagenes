@@ -29,10 +29,9 @@ class MyApp extends StatelessWidget {
                       fontSize: 16,
                       fontStyle: FontStyle.italic,
                       color: Colors.blueGrey)),
-              SizedBox(height: 10),
               Image.network(
                 'https://raw.githubusercontent.com/Eliziel-Camperos/imagenesAPPflutter_6J/refs/heads/main/spiderpapu3.png',
-                height: 180,
+                height: 150,
                 fit: BoxFit.cover,
               ),
               Text("spider papu",
@@ -43,7 +42,7 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 10), // Espacio entre imágenes
               Image.network(
                 'https://raw.githubusercontent.com/Eliziel-Camperos/imagenesAPPflutter_6J/refs/heads/main/spiderpapu2.png',
-                height: 180,
+                height: 150,
                 fit: BoxFit.cover,
               ),
               Text("spider papu negro",
@@ -54,7 +53,7 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 10),
               Image.network(
                 'https://raw.githubusercontent.com/Eliziel-Camperos/imagenesAPPflutter_6J/refs/heads/main/spiderpapu1.png',
-                height: 180,
+                height: 150,
                 fit: BoxFit.cover,
               ),
               Text("spider papu futurista",
